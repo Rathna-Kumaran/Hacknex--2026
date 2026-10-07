@@ -45,7 +45,7 @@ A Streamlit application that answers questions over uploaded CSV, Excel, and PDF
 ├── app.py              # Main Streamlit application and execution agent
 ├── requirements.txt    # Project dependencies
 ├── .env.example        # Environment variable template
-└── readme_md.md           # Project documentation
+└── README.md           # Project documentation
 ```
 
 ---
