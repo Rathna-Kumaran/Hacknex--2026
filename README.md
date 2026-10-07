@@ -84,11 +84,9 @@ pdfplumber
 python-dotenv
 openpyxl
 
-
 Then install:
 
 pip install -r requirements.txt
-
 
 🔑 Environment Configuration
 
@@ -98,7 +96,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 GEMINI_MODEL=gemini-3.6-flash
 GEMINI_FALLBACK_MODEL=gemini-2.5-flash
 
-
 Note: You can also leave GEMINI_API_KEY empty in .env and enter your API key directly in the Streamlit app sidebar.
 
 💻 Running the App
@@ -107,31 +104,4 @@ Launch the Streamlit application:
 
 streamlit run app.py
 
-
 Open http://localhost:8501 in your browser.
-
-🧪 Sample Test Case
-
-Create a file named sales.csv:
-
-Customer_ID,City,Amount
-1,Chennai,1200
-2,Bangalore,800
-3,Chennai,1500
-4,Chennai,700
-
-
-Upload sales.csv in the sidebar.
-
-Ask the question:
-
-What is the total amount spent by customers from Chennai?
-
-The agent will run the verified Python code:
-
-result = sales[sales['city'] == 'chennai']['amount'].sum()
-print(result)
-
-
-Verified Result Output: 3400
-
