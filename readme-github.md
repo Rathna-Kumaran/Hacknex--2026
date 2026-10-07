@@ -22,4 +22,4 @@ A Streamlit application that uses Google Gemini to analyze uploaded data (CSV, E
 ├── app.py              # Main Streamlit application and execution agent
 ├── requirements.txt    # Project dependencies
 ├── .env.example        # Environment variable template
-└── README.md           # Project documentation
+└── readme_md.md           # Project documentation
